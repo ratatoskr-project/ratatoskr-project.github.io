@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 a {
-    color: #1777e6 !important;
+    color: #BF51DC !important;
 }
 table {
   border-collapse: collapse;
@@ -49,7 +49,7 @@ h1.title {
 }
 a,
 a:hover {
-  color: #1777e6;
+  color: #BF51DC;
 }
 pre code {
   color: white !important;
@@ -65,8 +65,8 @@ ul.navbar-nav li.dropdown:hover > div.dropdown-menu {
   display: block;
 }
 .btn-outline-primary {
-  border-color: #1777e6;
-  color: #1777e6;
+  border-color: #9F5DA5;
+  color: #9F5DA5;
   border-width: 2px;
   border-radius: 5px;
 }
@@ -74,13 +74,13 @@ ul.navbar-nav li.dropdown:hover > div.dropdown-menu {
 .btn-outline-primary:active,
 .btn-outline-primary:visited,
 .btn-outline-primary:focus {
-  background-color: #1777e6 !important;
-  border-color: #1777e6 !important;
+  background-color: #BF51DC !important;
+  border-color: #BF51DC !important;
   cursor: pointer;
 }
 .btn-primary {
   color: white !important;
-  background-color: #1777e6 !important;
+  background-color: #BF51DC !important;
   border: none !important;
   transition: 0.5s;
 }
@@ -107,7 +107,7 @@ ul.navbar-nav li.dropdown:hover > div.dropdown-menu {
   padding-right: 25px;
 }
 .sidenav-top div.search button {
-  color: #1777e6;
+  color: #BF51DC;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -135,7 +135,7 @@ ul.navbar-nav li.dropdown:hover > div.dropdown-menu {
 }
 .sidenav a {
   text-decoration: none;
-  color: #1777e6;
+  color: #BF51DC;
   display: block;
 }
 .sidenav a.item {
@@ -182,16 +182,18 @@ header h1 {
 }
 header p {
   padding: 12px;
-  color: #1777e6;
+  color: #BF51DC;
   font-size: large;
   width: 60%;
   margin: auto;
 }
 header .btn-outline-primary {
   margin: 10px;
+  border-color: #BF51DC;
+  color: #BF51DC;
 }
 header .btn-primary {
-  border: 2px #1777e6 solid;
+  border: 2px #BF51DC solid;
   margin: 10px;
 }
 header a:hover {
@@ -219,7 +221,7 @@ div.card div.fav {
 div.card h5.card-title {
   text-transform: uppercase;
   margin-top: 2.8rem;
-  color: #1777e6;
+  color: #BF51DC;
   font-weight: 600;
   font-size: 1.4rem;
 }
@@ -293,14 +295,14 @@ button#myBtn {
   transition: 1s;
 }
 #myBtn:hover {
-  background-color: #1777e6;
+  background-color: #BF51DC;
 }
 div.search {
   text-align: center;
 }
 div.search label {
   font-size: 24px;
-  color: #1777e6;
+  color: #BF51DC;
 }
 div.search input#search-box {
   border: none;
@@ -598,7 +600,7 @@ div.sponsor-ask {
   padding-top: 0;
 }
 .outdated-notice a {
-  color: #1777e6;
+  color: #BF51DC;
 }
 .outdated-notice a:hover {
   color: #005969;

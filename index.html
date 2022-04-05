@@ -2,7 +2,7 @@
 <html>
   <head>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <title>Scalesim</title>
+    <title>Ratatoskr</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -39,25 +39,25 @@
       <header>
         <img
           src="images/logo.png"
-          height="250px;"
+          height="200px;"
         />
 
         <br />
 
-        <p>Systolic CNN AcceLErator Simulator (SCALE-Sim)</p>
-        <p>SCALE-Sim is a CNN accelerator simulator, that provides cycle-accurate timing, power/energy, memory bandwidth and trace results for a specified accelerator configuration and neural network architecture.</p>
+        <p><b>Ratatoskr NoC Design Framework</b></p>
+        <p>Ratatoskr is an open-source framework for power, performance, and area (PPA) analysis in Networks-on-Chips (NoCs) for 3D-integrated and heterogeneous System-on-Chips (SoCs). It covers all layers of abstraction by providing an NoC hardware implementation on Register Transfer Level (RTL), an NoC simulator on cycle-accurate level and an application model on transaction level. </p>
 
-        <a href="/gettingstarted.html"
-          ><button type="button" class="btn btn-primary" style="background-color: #0095af" href="gettingstarted.html">
+        <a href="https://github.com/ratatoskr-project/ratatoskr-tools/blob/main/tutorials/tutorial1.ipynb"
+          ><button type="button" class="btn btn-primary" style="background-color: #0095af" href="https://github.com/ratatoskr-project/ratatoskr-tools/blob/main/tutorials/tutorial1.ipynb">
             Get Started
           </button></a
         >
-        <a href="https://github.com/scalesim-project/scale-sim-v2"
+        <a href="https://github.com/ratatoskr-project"
           ><button type="button" class="btn btn-outline-primary">
             Sources
           </button></a
         >
-        <a href="https://ieeexplore.ieee.org/abstract/document/9238602"
+        <a href="https://dl.acm.org/doi/abs/10.1145/3472754"
           ><button type="button" class="btn btn-outline-primary">
             Reference
           </button></a
@@ -66,42 +66,18 @@
 
       <div class="container">
         <div class="row">
-          <div class="col">
-            <div class="card">
-              <div class="fav"><i class="fas fa-file-code" style="color:#F0A216;"></i></div>
-              <div class="card-body">
-                <h5 class="card-title">Sources</h5>
-                <p class="card-text">SCALE-Sim sources are available from Github</p>
-                <a href="https://github.com/scalesim-project/scale-sim-v2" class="btn btn-primary"
-                  >Go to Github</a
-                >
-              </div>
-            </div>
-          </div>
+
 
           <div class="col">
             <div class="card">
-              <div class="fav"><i class="fas fa-chalkboard-teacher" style="color:#F0A216;"></i></div>
+              <div class="fav"><i class="fas fa-book-open" style="color:#6FDC50;"></i></div>
               <div class="card-body">
-                <h5 class="card-title">Getting Started</h5>
-                <p class="card-text">Learn, how to use SCALE-Sim in 30 seconds!</p>
-                <a href="gettingstarted.html" class="btn btn-primary"
-                  >SCALE-Sim in 30 sec.</a
-                >
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <div class="fav"><i class="fas fa-terminal" style="color:#F0A216;"></i></div>
-              <div class="card-body">
-                <h5 class="card-title">Using SCALE-Sim</h5>
-                <p class="card-text">You can start using SCALE-Sim in 30 seconds. But you might need more insights that you can find here.</p>
+                <h5 class="card-title">Tutorials</h5>
+                <p class="card-text">You might want to start with some experiments directly. We provide three basic tutorials.</p>
                 <a
-                  href="tutorials.html"
+                  href="https://github.com/ratatoskr-project/ratatoskr-tools/tree/main/tutorials"
                   class="btn btn-primary"
-                  >Go to tutorials</a
+                  >Go to the tutorials</a
                 >
               </div>
             </div>
@@ -109,14 +85,27 @@
 
           <div class="col">
             <div class="card">
-              <div class="fav"><i class="fas fa-book-open" style="color:#F0A216;"></i></div>
+              <div class="fav"><i class="fas fa-chalkboard-teacher" style="color:#6FDC50;"></i></div>
               <div class="card-body">
-                <h5 class="card-title">Documentation</h5>
-                <p class="card-text">After you watched the tutorials, you might want to start experiments. Read the docs for further insights.</p>
+                <h5 class="card-title">Easy entry...</h5>
+                <p class="card-text">Ratatoskr provides a basic Python interface that make most design space explorations easy</p>
+                <a href="https://github.com/ratatoskr-project/ratatoskr-tools" class="btn btn-primary"
+                  >Go to Python user interface.</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <div class="fav"><i class="fas fa-terminal" style="color:#6FDC50;"></i></div>
+              <div class="card-body">
+                <h5 class="card-title">The internals</h5>
+                <p class="card-text">You can start using Ratatoskr quickly with the Python interfaces. But you might want to touch the C++ simulator in running background.</p>
                 <a
-                  href="https://github.com/scalesim-project/scale-sim-v2/tree/main/documentation"
+                  href="https://github.com/jmjos/ratatoskr"
                   class="btn btn-primary"
-                  >Go to the documentation</a
+                  >Go to C++ simulator</a
                 >
               </div>
             </div>
@@ -124,18 +113,29 @@
 
         </div>
         <div class="row">
-
+          <div class="col">
+            <div class="card">
+              <div class="fav"><i class="fas fa-file-code" style="color:#6FDC50;"></i></div>
+              <div class="card-body">
+                <h5 class="card-title">Sources</h5>
+                <p class="card-text">Sources are available from Github</p>
+                <a href="https://github.com/ratatoskr-project" class="btn btn-primary"
+                  >Go to Github</a
+                >
+              </div>
+            </div>
+          </div>
 
 
           <div class="col">
             <div class="card">
-              <div class="fav"><i class="fas fa-newspaper" style="color:#F0A216;"></i></div>
+              <div class="fav"><i class="fas fa-newspaper" style="color:#6FDC50;"></i></div>
               <div class="card-body">
                 <h5 class="card-title">Publications</h5>
                 <p class="card-text">
                   We're always happy when people cite our work. See a list of
-                  publication that examplify how SCALE-Sim is aiding computer
-                  architectects.
+                  publication that examplify how Ratatoskr is aiding
+                  architectects and designers.
                 </p>
                 <a href="publication.html" class="btn btn-primary"
                   >Go to Publications</a
@@ -146,7 +146,7 @@
 
           <!--<div class="col">
             <div class="card">
-              <div class="fav"><i class="fas fa-code-branch" style="color:#F0A216;"></i></div>
+              <div class="fav"><i class="fas fa-code-branch" style="color:#6FDC50;"></i></div>
               <div class="card-body">
                 <h5 class="card-title">Contributing</h5>
                 <p class="card-text">
@@ -161,13 +161,13 @@
 
           <div class="col">
             <div class="card">
-              <div class="fav"><i class="fa fa-bug" style="color:#F0A216;"></i></div>
+              <div class="fav"><i class="fa fa-bug" style="color:#6FDC50;"></i></div>
               <div class="card-body">
                 <h5 class="card-title">Issue Tracker</h5>
                 <p class="card-text">
-                  View the latest SCALE-Sim bug reports or add your own!
+                  View the latest Ratatoskr bug reports or add your own!
                 </p>
-                <a href="https://github.com/scalesim-project/scale-sim-v2/issues" class="btn btn-primary"
+                <a href="https://github.com/jmjos/ratatoskr/issues" class="btn btn-primary"
                   >Go to Issue Tracker</a
                 >
               </div>
